@@ -1,0 +1,3 @@
+task save_student with student.
+    write name of student to "students.txt".
+end.

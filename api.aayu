@@ -1,0 +1,7 @@
+task create_student with student.
+    show "Student Created".
+end.
+
+task get_student with id.
+    show "Student Found".
+end.

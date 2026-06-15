@@ -1,0 +1,17 @@
+use models.
+use api.
+use database.
+use auth.
+
+run login.
+
+show "Backend Started".
+
+Student student1 is.
+    name "Rahul"
+    age 20
+    id 1
+end.
+
+run create_student with student1.
+run save_student with student1.
